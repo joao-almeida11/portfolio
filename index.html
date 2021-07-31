@@ -50,20 +50,8 @@
       .name-title {
         font-family: 'Itim', cursive;
       }
-      @media screen and (max-width: 760px) {
-        .project-description {
-          height: 1rem;
-        }
-      }
-      @media screen and (min-width: 761px) {
-        .project-description {
-          height: 2rem;
-        }
-      }
-      @media screen and (min-width: 992px) {
-        .project-description {
-          height: 3rem;
-        }
+      .project-description {
+          overflow:visible;
       }
     </style>
   </head>
@@ -170,8 +158,9 @@
             ><span class="fab fa-github"></span> Ver Repositório</a
           >
         </article>
-
-        <article class="col-12 col-md-6 col-lg-4 pt-4 pt-md-5 pt-lg-3">
+      </section>
+      <section class="row">
+        <article class="col-12 col-md-6 col-lg-4 pt-4 pt-md-5 pt-lg-3 mt-5">
           <p class="fw-bold mb-1">Projeto Final de Licenciatura - RAD</p>
           <p class="project-description">
             Website da revista de ativismo RAD.
